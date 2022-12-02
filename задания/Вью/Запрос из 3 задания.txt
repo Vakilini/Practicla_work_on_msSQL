@@ -1,0 +1,2 @@
+select Staff.surname, Staff.[name], Staff.patronymic,  Staff.DateTO, Post.Post
+from Staff  join Post on  Staff.PostID=Post.IDPost
